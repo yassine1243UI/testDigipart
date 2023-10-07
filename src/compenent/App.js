@@ -3,6 +3,9 @@ import React, { useState } from 'react';
 import '../style/App.css';
 import Banniere from './Banniere';
 import Nouveaute from './Nouveaute';
+import ProductList from './ProductListe';
+import ProduitDetail from './ProduitDetail';
+
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -27,7 +30,8 @@ function App() {
       <Routes>
 
         <Route path='/' element= {<Nouveaute/>}/>
-
+        <Route path='/produits' element={<ProductList />} />
+        <Route path='/produitDetail/:id' element= {<ProduitDetail/>}/>
       </Routes>
 
     </div>

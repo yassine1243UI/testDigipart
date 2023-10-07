@@ -52,7 +52,7 @@ export default function Banniere({ shouldDisplayBanner, toggleBanner }) {
         <ul className="Menu" id="Menu">
           <Link to="/" className="lien-reduit">NOUVEAUTÉ</Link>
           <Link to="/" className="lien-reduit">CRÉATEUR</Link>
-          <Link to="/" className="lien-reduit">VÊTEMENTS</Link>
+          <Link to="/produits" className="lien-reduit">VÊTEMENTS</Link>
           <Link to="/" className="lien-reduit">CHAUSSURES</Link>
           <Link to="/" className="lien-reduit">SACS</Link>
           <Link to="/" className="lien-reduit">ACCESSOIRES</Link>
