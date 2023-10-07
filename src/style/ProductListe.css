@@ -1,0 +1,116 @@
+/* ProductListe.css */
+@font-face {
+    font-family:"futura-pt";
+    src:url("https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/9b05f3/000000000000000000013365/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/9b05f3/000000000000000000013365/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+    }
+
+.body1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 300px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contenue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .contenue > div {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    font-size: 10px;
+    margin-top: 0;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+.contenue a {
+        width: 200px;
+        text-decoration: none;
+        font-size: 14px;
+        color: rgb(6, 3, 3);
+        transition: 0.2s;
+        padding: 5px;
+        font-family: 'futura-pt', sans-serif;
+        margin: 3px;      
+}
+
+.contenue a:hover{
+    border: black solid 1px;
+
+}
+
+.contenue ul{
+    list-style: inside;
+    text-align: left;
+}
+
+.contenue li{
+    padding: 10px;
+}
+  
+.images img {
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+
+.product-images img{
+    max-width: 100%;
+    height: 500px;
+    display: block;
+    margin: 10px auto;
+}
+
+.product-images{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    overflow: scroll;
+}
+  
+.title p {
+    font-family: 'futura-pt';
+}
+
+.bouton-retour a{
+    text-decoration: none;
+    color: white;
+    font-family: futura-pt;
+    font-size:30px;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 1s;
+}
+  
+
+.bouton-retour a:hover{
+    text-decoration: none;
+    color: black;
+    font-family: futura-pt;
+    font-size:30px;
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
